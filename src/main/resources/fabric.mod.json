@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bedsandwool",
+  "version": "${version}",
+  "name": "Stackable Beds & Fast Wool",
+  "description": "Beds stack to 16 and sheep regrow their wool much faster.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.bedsandwool.BedsAndWoolMod"]
+  },
+  "mixins": ["bedsandwool.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
